@@ -5,7 +5,7 @@ A template repository with wiki for a team project at JCE's software engineering
 (See also:rRecommended [checklist](https://github.com/ddbeck/readme-checklist/blob/master/checklist.md) for a README) 
 
 ![project logo (this one for is taken from basecamp - a project management service)]
-(http://www.tapuz.co.il/communa/CommunaLinks.asp?Communaid=24445)
+(https://www.google.co.il/imgres?imgurl=http%3A%2F%2Fwww.gfguide.info%2Fapp%2Fimg%2Flogoceliakmed.gif&imgrefurl=http%3A%2F%2Fwww.gfguide.info%2F&docid=5mvw5Sd7drpGTM&tbnid=Fbq38vpGAMxZwM%3A&vet=10ahUKEwiO2tnV_v_ZAhXEsKQKHc32DIEQMwg6KAAwAA..i&w=600&h=541&bih=974&biw=1920&q=%D7%A6%D7%9C%D7%99%D7%90%D7%A7%20%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C&ved=0ahUKEwiO2tnV_v_ZAhXEsKQKHc32DIEQMwg6KAAwAA&iact=mrc&uact=8)
 
 ## Tools & Practices
 We're trying to use the best tools and practices in order to produce a quality enginneered product.
