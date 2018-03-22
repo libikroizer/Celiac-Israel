@@ -4,7 +4,7 @@ A template repository with wiki for a team project at JCE's software engineering
 
 (See also:rRecommended [checklist](https://github.com/ddbeck/readme-checklist/blob/master/checklist.md) for a README) 
 
-![project logo (this one for is taken from basecamp - a project management service)]
+
 ![alt text](http://www.gfguide.info/app/img/logoceliakmed.gif)
 
 ## Tools & Practices
