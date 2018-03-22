@@ -4,7 +4,7 @@ A template repository with wiki for a team project at JCE's software engineering
 
 (See also:rRecommended [checklist](https://github.com/ddbeck/readme-checklist/blob/master/checklist.md) for a README) 
 
-![alt text](http://www.gfguide.info/app/img/logoceliakmed.gif | width = 100)
+![](http://www.gfguide.info/app/img/logoceliakmed.gif | width = 100)
 
 ## Tools & Practices
 We're trying to use the best tools and practices in order to produce a quality enginneered product.
