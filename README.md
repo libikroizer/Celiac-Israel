@@ -1,8 +1,6 @@
 # Celiac-Isreal
-
-A template repository with wiki for a team project at JCE's software engineering course (replace with the mission of your project).
-
-(See also:rRecommended [checklist](https://github.com/ddbeck/readme-checklist/blob/master/checklist.md) for a README) 
+## Our vision
+Our next step is to build an application that will allow celiac patients to find restaurants and gluten-free food anywhere in the country.
 
 ![alt text](https://github.com/Eliyayalon/Celiac-Israel/blob/master/image/celiac.gif)
 
