@@ -10,6 +10,14 @@ Our next step is to build an application that will allow celiac patients to find
 
 
 
+#HOSTING
+https://gitter.im/celiac-isreal/Lobby
+
+<br></br>
+
+
+
+
 
 ## Tools & Practices
 We're trying to use the best tools and practices in order to produce a quality enginneered product.
