@@ -1,5 +1,8 @@
 # Celiac-Isreal
 ## Our vision
+
+Over the years, the Celiac Association in Israel has created many tools to provide services for celiac patients, in order to ensure that celiac patients in Israel will be diagnosed, treated and fed a gluten-free diet at every station in their lives.
+
 Our next step is to build an application that will allow celiac patients to find restaurants and gluten-free food anywhere in the country.
 
 ![alt text](https://github.com/Eliyayalon/Celiac-Israel/blob/master/image/celiac.gif)
