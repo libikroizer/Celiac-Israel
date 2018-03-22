@@ -4,7 +4,7 @@ A template repository with wiki for a team project at JCE's software engineering
 
 (See also:rRecommended [checklist](https://github.com/ddbeck/readme-checklist/blob/master/checklist.md) for a README) 
 
-![alt text](https://github.com/Eliyayalon/Celiac-Israel/blob/master/image/logoceliakmed.gif)
+![alt text](https://github.com/Eliyayalon/Celiac-Israel/blob/master/image/celiac.gif)
 
 ## Tools & Practices
 We're trying to use the best tools and practices in order to produce a quality enginneered product.
