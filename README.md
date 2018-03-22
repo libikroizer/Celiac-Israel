@@ -35,7 +35,7 @@ We're trying to use the best tools and practices in order to produce a quality e
 | Project Course Status | ... |
 
 ## Please visit our [live application](https://demo.reactstarterkit.com/)
-- Alright, currently only a landing page...
+https://www.celiac.org.il/
 
 
 ## Disclaimer
