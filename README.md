@@ -60,7 +60,7 @@ https://www.celiac.org.il/
 This project is developed as part of the requirements for a [software engineering course](https://github.com/jce-il/se-class/wiki) at the software engineering department - [Azrieli College of Engineering](http://www.jce.ac.il/), Jerusalem, Israel.
 
 Please visit our wiki for furthur project info: 
-
+###[Home] (../../wiki/user-Home)
 ### [User Manual](../../wiki/user-manual) (empty for now)
 
 ### [Team Page](../../wiki/team)
