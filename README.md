@@ -52,8 +52,8 @@ We're trying to use the best tools and practices in order to produce a quality e
 https://www.celiac.org.il/
 
 
-## Task Management System
-https://github.com/Eliyayalon/Celiac-Israel/issues
+## [Task Management System] (https://github.com/Eliyayalon/Celiac-Israel/issues)
+
 
 ## Disclaimer
 This project is developed as part of the requirements for a [software engineering course](https://github.com/jce-il/se-class/wiki) at the software engineering department - [Azrieli College of Engineering](http://www.jce.ac.il/), Jerusalem, Israel.
