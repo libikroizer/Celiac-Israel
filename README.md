@@ -8,7 +8,7 @@ Our next step is to build an application that will allow celiac patients to find
 
 <br></br>
 
- 
+
 
 ## hosting
 
@@ -62,7 +62,7 @@ This project is developed as part of the requirements for a [software engineerin
 Please visit our wiki for furthur project info: 
 
 ### [User Manual](../../wiki/user-manual) (empty for now)
-###[Home] (../../wiki/user-Home)
+### [Home] (../../wiki/Home)
 ### [Team Page](../../wiki/team)
 
 ### Project Documents
