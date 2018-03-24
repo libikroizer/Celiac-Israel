@@ -62,7 +62,7 @@ This project is developed as part of the requirements for a [software engineerin
 Please visit our wiki for furthur project info: 
 ### [Home ](../../wiki/Home)
 ### [Team Page](../../wiki/team)
-### [Product Page](../../wiki/Product Page)
+### [Product Page](../../wiki/ProductPage)
 ### [Inception ](../../wiki/Inception)
 ### [User Manual](../../wiki/user-manual) (empty for now)
 
