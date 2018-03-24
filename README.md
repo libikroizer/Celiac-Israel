@@ -12,12 +12,11 @@ Our next step is to build an application that will allow celiac patients to find
 
 ## hosting
 
-Link to group chat:
-https://gitter.im/celiac-isreal/Lobby
-
-
 Link to website:
 https://www.celiac.org.il/
+
+Link to group chat:
+https://gitter.im/celiac-isreal/Lobby
 
 <br></br>
 
