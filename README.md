@@ -52,7 +52,7 @@ We're trying to use the best tools and practices in order to produce a quality e
 https://www.celiac.org.il/
 
 
-## [Task Management System]
+## Task Management System
 (https://github.com/Eliyayalon/Celiac-Israel/issues)
 
 
