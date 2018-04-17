@@ -67,6 +67,8 @@ Please visit our wiki for furthur project info:
 ### [User Manual](../../wiki/user-manual) (empty for now)
 
 
+### Main task board
+https://github.com/Eliyayalon/Celiac-Israel/projects
 
 ### Project Documents
 - [Project Idea](docs/idea.pdf) ([Presentation](docs/idea-slides.pdf))
