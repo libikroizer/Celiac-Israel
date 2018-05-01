@@ -8,14 +8,18 @@ import { environment } from '../environments/environment';
 import { AngularFirestoreModule } from "angularfire2/firestore"
 import { AngularFireAuthModule } from "angularfire2/auth"
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import { AddEditScreenComponent } from './add-edit-screen/add-edit-screen.component'
+import { AddEditScreenComponent } from './add-edit-screen/add-edit-screen.component';
+import { LoginComponent } from './login/login.component'
 
-
+//login import:
+import { AuthService } from './auth.service';
+//import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddEditScreenComponent
+    AddEditScreenComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,7 @@ import { AddEditScreenComponent } from './add-edit-screen/add-edit-screen.compon
     ReactiveFormsModule
 
   ],
-  providers: [],
+  providers: [AuthService],//maybe also:  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
