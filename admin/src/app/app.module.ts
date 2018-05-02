@@ -11,6 +11,10 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { AddEditScreenComponent } from './add-edit-screen/add-edit-screen.component';
 import { LoginComponent } from './login/login.component'
 
+//bootstrap import
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
+
 //login import:
 import { AuthService } from './auth.service';
 //import {MatInputModule} from '@angular/material/input';
