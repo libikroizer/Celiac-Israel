@@ -14,7 +14,7 @@ import { LoginComponent } from './login/login.component'
 //login import:
 import { AuthService } from './auth.service';
 //import {MatInputModule} from '@angular/material/input';
-
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
