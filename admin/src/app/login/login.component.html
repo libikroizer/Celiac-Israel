@@ -11,7 +11,7 @@
     Signup
   </button>
 
-  <button (click)="login()" [disabled]="!email || !password">
+  <button (click)="login()" routerLink="/edit-screen" [disabled]="!email || !password">
     Login
   </button>
 </div>

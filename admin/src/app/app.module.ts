@@ -17,6 +17,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 //login import:
 import { AuthService } from './auth.service';
+import { RouterModule } from '@angular/router';
+import { routing } from './app.rout';
 //import {MatInputModule} from '@angular/material/input';
 
 
@@ -32,7 +34,8 @@ import { AuthService } from './auth.service';
     AngularFirestoreModule,
     AngularFireAuthModule,
     FormsModule, 
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RouterModule.forRoot(routing)
 
   ],
   providers: [AuthService],//maybe also:  providers: [],
