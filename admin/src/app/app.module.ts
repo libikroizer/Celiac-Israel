@@ -7,13 +7,24 @@ import { AngularFireModule } from "angularfire2";
 import { environment } from '../environments/environment';
 import { AngularFirestoreModule } from "angularfire2/firestore"
 import { AngularFireAuthModule } from "angularfire2/auth"
-import {FormsModule, ReactiveFormsModule} from "@angular/forms"
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { AddEditScreenComponent } from './add-edit-screen/add-edit-screen.component';
+import { LoginComponent } from './login/login.component'
+
+//bootstrap import
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
+//login import:
+import { AuthService } from './auth.service';
+//import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddEditScreenComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +35,7 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms"
     ReactiveFormsModule
 
   ],
-  providers: [],
+  providers: [AuthService],//maybe also:  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

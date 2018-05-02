@@ -1,41 +1,7 @@
+
 <div>
-  <h1>Add or Edit Place</h1>
-  Name: <input type="text" placeholder="name of place" [(ngModel)]="namePlace"><br/>
-  Type: <input type="text" placeholder="Dishes type" [(ngModel)]="typeDishes"><br/>
-  Phone: <input type="number" placeholder="phone" [(ngModel)]="phone"><br/>
-  Description: <input type="text" [(ngModel)]="Description"><br/>
-  more Info: <input type="text" [(ngModel)]="moreInfo"><br/>
-  location on map: <input type="text" [(ngModel)]="locationMap"><br/>
-  Address: <input type="text" [(ngModel)]="Address"><br/>
-  facilities\ Service: <input type="text" [(ngModel)]="facilities"><br/>
-  priceRange: <input type="text" [(ngModel)]="priceRange"><br/>
-  kosher: <input type="checkbox" [(ngModel)]="kosher" />
-  <h2>opening</h2>
-  <div>
-    
-    open Hour: <input type="number" placeholder="00" [(ngModel)]="opening.openHour" />
-    open Min: <input type="number" placeholder="00" [(ngModel)]="opening.openMin">
-    close Hour: <input type="number" placeholder="00" [(ngModel)]="opening.closeHour">
-    close Min: <input type="number" placeholder="00" [(ngModel)]="opening.closeMin">
-  </div>
-
-<h2>Sensitivity And Preferences</h2>
+  <app-login></app-login>
+</div>
 <div>
-
-  Gluten free menu: <input type="checkbox" [(ngModel)]="sensitivePreferences.gfMenu" />
-  Sensitivity: <input type="text" [(ngModel)]="sensitivePreferences.sensitivity">
-  Preferences: <input type="text"  [(ngModel)]="sensitivePreferences.preferences">
-  Accessibility: <input type="checkbox" [(ngModel)]="sensitivePreferences.accessibility" />
+  <app-add-edit-screen></app-add-edit-screen> 
 </div>
-
-<h2>links</h2>
-<div>
- 
-    website: <input type="text" [(ngModel)]="linksUrl.website" />
-    facebook: <input type="text" [(ngModel)]="linksUrl.facebook">
-</div>
-</div>
-
-
-<button (click)="save()">Save</button>
-
