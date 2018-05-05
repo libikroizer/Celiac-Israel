@@ -15,10 +15,6 @@ Our next step is to build an application that will allow celiac patients to find
 Link to website:
 https://www.celiac.org.il/
 
-Link to group chat:
-https://gitter.im/celiac-isreal/Lobby
-
-<br></br>
 
 
 
@@ -79,7 +75,7 @@ https://github.com/Eliyayalon/Celiac-Israel/projects/2
 ### Iteration Pages
 - [Iteration 0 - ZFR](../../wiki/iter-0-ZFR)
 - [Iteration 1 - MVP](../../wiki/iter-1--MVP)
-- [Iteration 2 - Feature X]()
+- [Iteration 2 - Feature X](../../wiki/iter-2)
 - [Iteration 3 - Feature Y]()
 - [Iteration 4 - Feature Z]()
 
