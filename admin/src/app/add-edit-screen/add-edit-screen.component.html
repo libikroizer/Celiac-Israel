@@ -1,34 +1,51 @@
 <div class="container">
   <h1 class="row">הוספת או עריכת מקום</h1>
   <div class="row">
-    <div class="labels col-2">
+    <div class="labels col-2" >
       שם המקום:
     </div>
     <div class="col-10">
-      <input type="text" class="form-control" placeholder="הכנס שם מסעדה..">
+      <input type="text" class="form-control" placeholder="הכנס שם מסעדה.."  [(ngModel)]="namePlace" required>
     </div>
   </div>
 
-  <!--  -->
   <div class="row">
     <div class="labels col-2">
       כתובת:
     </div>
     <div class="col-10">
-      <input type="text" class="form-control" placeholder="הכנס כתובת...">
+      <input type="text" class="form-control" placeholder="הכנס כתובת..." [(ngModel)]="Address" required>
     </div>
   </div>
-  <!--  -->
+
   <div class="row">
     <div class="labels col-2">
       טלפון:
     </div>
     <div class="col-10">
-      <input type="text" class="form-control" placeholder="הכנס מס' טלפון...">
+      <input type="number" class="form-control" placeholder="הכנס מס' טלפון..."  [(ngModel)]="phone">
     </div>
   </div>
 
-  <!--  -->
+  
+
+  
+
+
+  <div class="row">
+    <div class="labels col-2">
+      כתובת אתר אינטרנט:
+    </div>
+    <div class="col-10">
+      <input type="text" class="form-control" placeholder="הכנס כתובת אתר (אנטרנט/פייסבוק)...">
+    </div>
+  </div>
+<!-- 
+
+
+
+
+
   <div class="row">
     <div class="labels col-2">
       כתובת אתר אינטרנט:
@@ -38,17 +55,7 @@
     </div>
   </div>
 
-  <!--  -->
-  <div class="row">
-    <div class="labels col-2">
-      כתובת אתר אינטרנט:
-    </div>
-    <div class="col-10">
-      <input type="text" class="form-control" placeholder="הכנס כתובת אתר (אנטרנט/פייסבוק)...">
-    </div>
-  </div>
 
-  <!--  -->
   <div class="row">
     <div class="labels col-2">
       אימייל:
@@ -59,7 +66,7 @@
   </div>
 
 
-  <!--  -->
+
   <div class="row">
     <div class="labels col-2">
       שעות פתיחה:
@@ -71,7 +78,7 @@
 
 
 
-  <!--  -->
+
   <div class="row">
     <div class="labels col-2">
       טווח מחירים:
@@ -83,7 +90,7 @@
 
 
 
-  <!--  -->
+
   <div class="row">
     <div class="labels col-2">
       סוג מזון:
@@ -92,7 +99,7 @@
       <input type="text" class="form-control" placeholder="הכנס סוג מזון רצוי..">
     </div>
   </div>
-  <!--  -->
+
   <div class="row">
     <div class="labels col-2">
       תיאור חופשי:
@@ -102,7 +109,7 @@
     </div>
   </div>
 
-   <!--  -->
+
    <div class="row">
     <div class="labels col-2">
       מידע נוסף:
@@ -112,6 +119,18 @@
     </div>
   </div>
 
+ 
+     <div class="row">
+      <div class="labels col-2">
+        מיקום במפה:
+      </div>
+      <div class="col-10">
+        x:<input type="number" class="form-control" placeholder=0>
+        y:<input type="number" class="form-control" placeholder=0>
+      </div>
+    </div>
+
+
 
   <div class="form-group row">
     <div style='align-self:center;text-align:right;' class='col'>
@@ -120,7 +139,7 @@
     </div>
   </div>
 
-  <!--  -->
+
 
 
   <div class="form-group row">
@@ -132,7 +151,6 @@
 
 
 
-  <!--  -->
 
   <div class="form-group row">
     <div style='align-self:center;text-align:right;' class='col'>
@@ -140,14 +158,14 @@
       <label style="margin-right:20px;" class="form-check-label">כשר</label>
     </div>
   </div>
-  <!--  -->
+
 
   <div class="form-group row">
     <div style='align-self:center;text-align:right;' class='col'>
       <input type="checkbox" class="form-check-input" name='acceptedEula' required ngModel>
       <label style="margin-right:20px;" class="form-check-label">שרות/מתקנים</label>
     </div>
-  </div>
+  </div> -->
 
 
 
@@ -229,6 +247,20 @@
     <input type="text" [(ngModel)]="linksUrl.facebook">
   </div>
 </div>
+-->
+
+<!-- <button (click)="save()">Save</button>  -->
 
 
-<button (click)="save()">Save</button> -->
+
+
+
+
+  
+  <div class="col-12 text-center"> 
+    <button type="button" class="btn btn-outline-primary btn-primary"(click)="save()">Save</button> 
+</div>
+
+
+
+
