@@ -75,7 +75,7 @@ https://github.com/Eliyayalon/Celiac-Israel/projects/2
 ### Iteration Pages
 - [Iteration 0 - ZFR](../../wiki/iter-0-ZFR)
 - [Iteration 1 - MVP](../../wiki/iter-1--MVP)
-- [Iteration 2 - Feature X](../../wiki/iter-2)
+- [Iteration 2](../../wiki/iter-2)
 - [Iteration 3 - Feature Y]()
 - [Iteration 4 - Feature Z]()
 
