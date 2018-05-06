@@ -38,6 +38,8 @@ import {MatButtonModule} from '@angular/material/button';
     RouterModule.forRoot(routing)
 
   ],
+  declarations: [AppComponent, ...],
+  imports: [NgbModule.forRoot(), ...],  
   providers: [AuthService],//maybe also:  providers: [],
   bootstrap: [AppComponent]
 })
