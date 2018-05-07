@@ -1,3 +1,4 @@
+
 button
 {
     display: inline-block;
@@ -12,3 +13,26 @@ button
     color:white;
     
 }
+ * {
+    direction: rtl
+} 
+
+
+
+.labels {
+    
+    align-self: center;
+}
+.row {
+    margin-top: 15px;
+}
+.form-group row{
+    margin-bottom:0px;
+}
+
+/* .custom-checkbox{
+    /* text-align:right;
+    align-self:center;
+    flex-direction: column-reverse;
+    display: flex;
+} */

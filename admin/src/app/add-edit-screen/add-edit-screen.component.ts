@@ -13,9 +13,12 @@ export class AddEditScreenComponent implements OnInit {
     this.resColl = afs.collection("resturant"); 
   }
   namePlace: string;
+  Address: string;
+  phone: number;
+ 
   typeDishes: string;
   Description: string;
-  phone: number;
+
  
   opening: {openHour: number, openMin: number, closeHour: number, closeMin: number}={
     openHour: 0, openMin: 0, closeHour: 0, closeMin: 0
@@ -26,11 +29,13 @@ export class AddEditScreenComponent implements OnInit {
   linksUrl:{ website: string, facebook:  string;}={
     website: "",    facebook:  ""
   }
+  location_in_map:{x:number, y: number}={
+    x:0, y:0
+  }
   
   priceRange: string;
   kosher: boolean;
-  locationMap: string;//on the map
-  Address: string;
+  
   facilities: string;
   moreInfo: string;
 
@@ -39,20 +44,24 @@ export class AddEditScreenComponent implements OnInit {
   public save(){
     let obj = {
      
+     
       namePlace: this.namePlace,
-      typeDishes: this.typeDishes,
+      Address:this.Address,
+      phone: this.phone
+     /* typeDishes: this.typeDishes,
       Description:this.Description,
-      phone: this.phone,
-
+      
+      location_in_map: this.location_in_map,
       opening: this.opening,
      sensitivePreferences:  this.sensitivePreferences,
-      links:  this.linksUrl,
+      links:  this.linksUrl,*/
 
      /*  priceRange: this.priceRange,
       kosher: this.kosher,
+
       Address: this.Address,
       facilities: this.facilities,*/
-      moreInfo: this.moreInfo
+      //moreInfo: this.moreInfo
     }
     this.resColl.add(obj)
   }
