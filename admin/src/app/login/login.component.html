@@ -8,11 +8,11 @@
   <div class="container">
     <div class="row">
       <div class="col text-center">
-        <button (click)="signup()" [disabled]="!email || !password">
+        <button type="button" class="btn btn-outline-primary btn-primary" (click)="signup()" [disabled]="!email || !password">
           Signup
         </button>
 
-        <button (click)="login()" routerLink="/main-screen" [disabled]="!email || !password">
+        <button type="button" class="btn btn-outline-primary btn-primary" (click)="login()" routerLink="/main-screen" [disabled]="!email || !password">
           Login
         </button>
 
@@ -22,10 +22,13 @@
 
 </div>
 
-<button (click)="logout()" *ngIf="authService.user | async">
+<div class="col-12 text-center"> 
+  <button type="button" class="btn btn-outline-primary btn-primary" (click)="logout()" *ngIf="authService.user | async">
   Logout
 
 </button>
+
+</div>
 
 
 
