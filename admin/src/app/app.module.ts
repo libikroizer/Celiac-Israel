@@ -21,12 +21,14 @@ import { RouterModule } from '@angular/router';
 import { routing } from './app.rout';
 //import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
+import { MainScreenComponent } from './main-screen/main-screen.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddEditScreenComponent,
-    LoginComponent
+    LoginComponent,
+    MainScreenComponent
   ],
   imports: [
     BrowserModule,

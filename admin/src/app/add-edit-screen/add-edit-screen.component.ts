@@ -50,7 +50,6 @@ export class AddEditScreenComponent implements OnInit {
 
      /*  priceRange: this.priceRange,
       kosher: this.kosher,
-      location: this.locationMap,
       Address: this.Address,
       facilities: this.facilities,*/
       moreInfo: this.moreInfo
