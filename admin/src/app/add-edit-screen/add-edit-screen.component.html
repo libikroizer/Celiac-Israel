@@ -29,18 +29,22 @@
 
   
 
-  
 
-
-  <div class="row">
+  <div class="row">  
     <div class="labels col-2">
       כתובת אתר אינטרנט:
     </div>
     <div class="col-10">
-      <input type="text" class="form-control" placeholder="הכנס כתובת אתר (אנטרנט/פייסבוק)...">
+      <input type="text" class="form-control" placeholder="הכנס כתובת אתר אנטרנט)..." [(ngModel)]="linksUrl.website">
     </div>
+    <div class="labels col-2">
+        כתובת פייסבוק:
+      </div>
+      <div class="col-10">
+        <input type="text" class="form-control" placeholder="הכנס כתובת פייסבוק)..." [(ngModel)]="linksUrl.facebook">
+      </div>
   </div>
-<!-- 
+ 
 
 
 
@@ -48,13 +52,14 @@
 
   <div class="row">
     <div class="labels col-2">
-      כתובת אתר אינטרנט:
+      כתובת אימל:
     </div>
     <div class="col-10">
-      <input type="text" class="form-control" placeholder="הכנס כתובת אתר (אנטרנט/פייסבוק)...">
+      <input type="text" class="form-control" placeholder="כתובת אימל" [(ngModel)]="email">
     </div>
   </div>
 
+<!--
 
   <div class="row">
     <div class="labels col-2">

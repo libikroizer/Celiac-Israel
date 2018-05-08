@@ -12,12 +12,13 @@ export class AddEditScreenComponent implements OnInit {
   constructor(private afs: AngularFirestore){
     this.resColl = afs.collection("resturant"); 
   } 
-  
+
 
   namePlace: string;
   Address: string;
   phone: number;
- 
+  email: string;
+
   typeDishes: string;
   Description: string;
 
@@ -49,7 +50,8 @@ export class AddEditScreenComponent implements OnInit {
      
       namePlace: this.namePlace,
       Address:this.Address,
-      phone: this.phone
+      phone: this.phone,
+      email: this.email,
      /* typeDishes: this.typeDishes,
       Description:this.Description,
       
