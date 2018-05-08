@@ -26,11 +26,8 @@ export class HomePage {
       else
       {
        
-       // this.location = undefined;
+        this.location = undefined;
         this.navCtrl.push(Page2Page);
-
-        
-
         //console.log("world");
       }
         

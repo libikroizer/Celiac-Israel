@@ -11,6 +11,8 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Page2Page } from '../pages/page2/page2';
+import { FilterPage } from '../pages/filter/filter';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,11 +21,14 @@ import { Page2Page } from '../pages/page2/page2';
     ContactPage,
     HomePage,
     TabsPage,
-    Page2Page
+    Page2Page,
+    FilterPage
+    
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    FormsModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -32,7 +37,8 @@ import { Page2Page } from '../pages/page2/page2';
     ContactPage,
     HomePage,
     TabsPage,
-    Page2Page
+    Page2Page,
+    FilterPage
   ],
   providers: [
     StatusBar,

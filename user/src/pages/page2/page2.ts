@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { FilterPage } from '../filter/filter';
 
 /**
  * Generated class for the Page2Page page.
@@ -16,10 +17,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class Page2Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+   
+  }
+  
+  onLoadFilterScreen()
+  {
+    this.navCtrl.push(FilterPage);
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad Page2Page');
-  }
+  
+  
 
 }
