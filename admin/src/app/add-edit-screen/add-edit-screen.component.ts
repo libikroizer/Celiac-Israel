@@ -11,7 +11,8 @@ export class AddEditScreenComponent implements OnInit {
   private resColl
   constructor(private afs: AngularFirestore){
     this.resColl = afs.collection("resturant"); 
-  }
+  } 
+  
   namePlace: string;
   Address: string;
   phone: number;
