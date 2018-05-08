@@ -13,6 +13,7 @@ export class AddEditScreenComponent implements OnInit {
     this.resColl = afs.collection("resturant"); 
   } 
   
+
   namePlace: string;
   Address: string;
   phone: number;
