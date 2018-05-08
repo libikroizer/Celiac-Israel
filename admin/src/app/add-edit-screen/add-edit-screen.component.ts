@@ -61,11 +61,11 @@ export class AddEditScreenComponent implements OnInit {
       links:  this.linksUrl,
 
        priceRange: this.priceRange,      
-      /*facilities: this.facilities,*/
+      facilities: this.facilities,
       moreInfo: this.moreInfo
 
       /*location_in_map: this.location_in_map,
-      kosher: this.kosher, */
+    */
     }
     this.resColl.add(obj)
   }
