@@ -13,7 +13,7 @@ Our next step is to build an application that will allow celiac patients to find
 ## hosting
 
 Link to the admin website:
-https://celiacateriter1.firebaseapp.com
+https://celiac-f036d.firebaseapp.com
 
 
 
